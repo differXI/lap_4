@@ -1,5 +1,6 @@
 ---
 name: Feature Request
+about:bug template
 description: Use this template to file a feature request.
 title: "[Feature]: "
 labels: ["enhancement", "triage"]
