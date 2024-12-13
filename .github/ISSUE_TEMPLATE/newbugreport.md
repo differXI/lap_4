@@ -1,6 +1,5 @@
 ---
-name: Bug Report
-description: File a bug report
+name: NewBugReport
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -64,4 +63,5 @@ body:
         - label: I agree to follow this project's Code of Conduct
       required: true
 ---
+
 
