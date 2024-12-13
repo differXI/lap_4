@@ -14,7 +14,7 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info
+      description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
       validations:
         required: false
@@ -22,13 +22,13 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
+      description: Please describe the issue. Also, tell us what you expected to happen.
       placeholder: Tell us what you see!
       value: "A bug happened!"
       validations:
         required: true
   - type: dropdown
-    id: version 
+    id: version
     attributes:
       label: Version
       description: What version of our software are you running?
@@ -58,10 +58,8 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
       options:
         - label: I agree to follow this project's Code of Conduct
       required: true
 ---
-
-
